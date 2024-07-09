@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Impresion Geek 3d</title>
-    <link rel="shortcut icon" href="img/alexcgdesign.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
-      rel="stylesheet"
-    >
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.js'></script>
+    
 </head>
 
 <body>
@@ -46,7 +45,7 @@
         <section class="contenedor sobre-nosotros">
             <h2 class="titulo">Sobre Nosotros y Nuestra Misión</h2>
             <div class="contenedor-sobre-nosotros">
-                <img src="imagenes/baz.jpg" alt="" class="imagen-about-us">
+                <img src="imagenes/Bazar.jpg" alt="" class="imagen-about-us">
                 <div class="contenido-textos">
                     <h3><span>1</span>¿Quienes Somos?</h3>
                     <p>Somos un grupo apasionado de coleccionistas y entusiastas dedicados a la celebración del mundo del anime, 
@@ -56,8 +55,7 @@
                     <h3><span>2</span>Nuestro Objetivo</h3>
                     <p>Nuestro objetivo es conectar a los fans con sus personajes favoritos a través de figuras detalladas y 
                         exclusivas, y crear espacios vibrantes en eventos y bazares donde los coleccionistas puedan compartir su 
-                        pasión. Queremos que cada encuentro sea una oportunidad para descubrir nuevas piezas, conocer a otros 
-                        entusiastas y sumergirse en un mundo lleno de creatividad y emoción.
+                        pasión.
                     </p>
                 </div>
             </div>
@@ -104,18 +102,16 @@
                     <img src="imagenes/t.jpg" alt="">
                     <div class="contenido-texto-card">
                         <h4>Eventos</h4>
-                        <p>Únete a nosotros en eventos temáticos donde podrás explorar y adquirir figuras de resina exclusivas. 
-                            Estos eventos reúnen a coleccionistas y fanáticos para celebrar su amor por el anime, las películas y 
-                            los videojuegos</p>
+                        <p>Únete a nosotros en eventos temáticos donde podrás explorar y adquirir figuras de resina exclusivas.</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="imagenes/tb.jpg" alt="">
                     <div class="contenido-texto-card">
                         <h4>Bazares</h4>
-                        <p>Visita nuestros bazar para descubrir una amplia gama de figuras de GEEK!
-                        Estos eventos son el lugar ideal para encontrar tesoros únicos, intercambiar ideas con otros coleccionistas 
-                        y disfrutar de una atmósfera vibrante y amigable.
+                        <p>
+                        Visita nuestros bazares para descubrir una amplia gama de figuras, estos eventos son el lugar ideal para 
+                        encontrar tesoros únicos.
                         </p>
                     </div>
                 </div>
@@ -124,7 +120,7 @@
                     <div class="contenido-texto-card">
                         <h4>Talleres</h4>
                         <p>Participa en nuestros talleres interactivos donde podrás aprender y perfeccionar tus habilidades en 
-                            la pintura y personalización de figuras GEEK</p>
+                        la pintura y personalización de figuras Geek</p>
                     </div>
                 </div>
             </div>
@@ -142,19 +138,23 @@
         </section>
 
         <main>
-            <!-- Secciones anteriores aquí... -->
+            
         
             <section class="inscripcion" id="Inscripciones">
                 <h2>Inscripciones</h2>
                 <div class="contenedor">
                     <article>
-                        <h3 class="titulo">Inscríbete en nuestro curso</h3>
                         <form id="form-inscripcion">
                             <label for="nombre">Nombre:</label>
                             <input type="text" id="nombre" name="nombre" required>
-                            
-                            <label for="edad">Edad:</label>
-                            <input type="number" id="edad" name="edad" required>
+
+                            <label for="ageRange">Rango de edad:</label>
+                            <select id="ageRange">
+                              <option value="15-25">15 a 25</option>
+                              <option value="25-40">25 a 40</option>
+                              <option value="40-60">40 o más</option>
+                            </select>
+         
                             
                             <label for="correo">Correo Electrónico:</label>
                             <input type="email" id="correo" name="correo" required>
@@ -189,5 +189,4 @@
 
 
 </body>
-
 </html>

@@ -4,8 +4,20 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'open sans';
+h1{
+    font-family: "Poppins", sans-serif;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+}
+h4{
+    font-family: "Poppins", sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
 }
 
 .contenedor {
@@ -70,7 +82,7 @@ header::before {
 
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -285,8 +297,8 @@ main .sobre-nosotros{
 
 
 
-/* Clients */
-/* Clientes */
+/* Eventos */
+
 
 .cards {
     display: flex;
@@ -308,12 +320,12 @@ main .sobre-nosotros{
 }
 
 .cards .card:nth-child(2n) {
-    margin-right: 0; /* Elimina el margen derecho en tarjetas pares */
+    margin-right: 0; 
 }
 
 .cards .card img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 50%;
@@ -414,7 +426,7 @@ footer {
     text-align: center;
     font-size: 18px;
     margin: 20px 0 0 0;
-    color: #9e9797; /* Gris claro para el título final */
+    color: #9e9797; 
 }
 
 /* Inscripción */
@@ -448,6 +460,15 @@ form label {
     margin-bottom: 5px;
     font-weight: bold;
 }
+
+form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fff;
+  }
 
 form input {
     margin-bottom: 15px;
@@ -497,7 +518,7 @@ form button {
         width: 44%;
     }
 
-    /* Clientes */
+    
 
     .cards{
         flex-direction: column;
@@ -513,7 +534,7 @@ form button {
         margin-bottom: 30px;
     }
 
-    /* servicios */
+    
 
     .servicio-cont{
         justify-content: center;
